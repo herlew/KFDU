@@ -1,0 +1,96 @@
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="kfdu_p.css">
+            </head>
+            <body>
+              <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+              <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+              </script>
+
+              <section>
+                <div class="background">
+                  <div class="header">
+                    <p class="font-18 text-white" style="background-color:rgba(0,0,0,0.75); border-left:3px solid rgb(218,103,15); width:80%; height: 100%; text-align: left; font-size:35px; padding:1em;">KWARA FULANI DEVELOPMENT UNION</h1></p>
+                    <h2>VISION:TO FOSTER PEACE AND UNITY AMONG THE FULANI AND WITH THE PEOPLE OF KWARA STATE</h2>
+                    <h4>KAUTALHO'ORE---UNITY</h4>
+                  </div>
+                </section>
+                <section style="min-height:250px;background: url(palace.jpg)no-repeat 0px 0px;background-size: cover;  -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover;-ms-background-size: cover; background-attachment:fixed;">
+                 <div class="container">
+
+                  <div class="row" style="background: rgba(0,0,0,0.50);padding:5em 2em;">
+                    <h1>ABOUT US</h1>
+                    <h3>This association is  primarily created to foster unity and peace among the Fulani in kwara state.
+                      This integration will neither  exclude the educated nor the non-educated Fulbe within the state. 
+                      KFDU is interested in bringing together of Fulbe including the tribe nomadic counterpart. 
+                      integration of Fulani herdsmen, Western educated, Eastern Literate (Islamic priests) and crop farming Fulbe to benefit from her efforts. 
+                      To ensure the creation of beneficiary programs that will reach every segment of Fulbe , without marginalization in age, sex, family background, Religion factor, Economic factor and any other form of socio-cultural factor.
+                      To keep and liberate culture, norms, customs as part of our education references.</h3>
+                    </div>
+                  </div>
+                </section>
+                <fieldset>
+                <legend>CONTACT FORM</legend>
+                <div class="container">
+                  <form action="/action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">First Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Last Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">GENDER</label>
+                      </div>
+                      <div class="col-75">
+                        <select id="country" name="country">
+                          <option value="australia">Male</option>
+                          <option value="canada">Female</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Subject</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                  </form>
+                  </fieldset>
+                </div>
+              </body>
+              </html>
+<html>
